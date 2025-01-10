@@ -20,7 +20,7 @@ public class InfoCommands : InteractionModuleBase<SocketInteractionContext>
     [SlashCommand("ping", "Pings the bot and returns its latency.")]
     public async Task PingAsync()
     {
-        await RespondAsync(text: $":ping_pong: It took me {Context.Client.Latency}ms to respond to you!", ephemeral: true);
+        await RespondAsync(text: $":ping_pong: It took me {Context.Client.Latency}ms to respond to you!");
     }
 
     [SlashCommand("info", "Retrieves any important bot information.")]
@@ -32,7 +32,6 @@ public class InfoCommands : InteractionModuleBase<SocketInteractionContext>
             .WithDescription("placeholder placeholder")
             .AddField("Links", "[Source Code](https://github.com/PotassiumSoftware/Jax)", false)
             .WithColor(Color.Blue)
-            .WithCurrentTimestamp()
             .Build();
 
         await RespondAsync(embed: embed);
