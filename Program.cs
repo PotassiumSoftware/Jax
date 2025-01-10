@@ -32,7 +32,7 @@ public class Program
     {
         _configuration = new ConfigurationBuilder()
             .AddEnvironmentVariables(prefix: "DC_")
-            .AddJsonFile("appsettings.json", optional: true)
+            .AddJsonFile("config.json", optional: true)
             .Build();
         
         _services = new ServiceCollection()
