@@ -1,0 +1,23 @@
+{
+  "name": "jax",
+  "version": "1.0.0",
+  "description": "<p align=\"center\"><p align=\"center\">\r   <a href=\"#overview\">Overview</a>\r   •\r   <a href=\"#command-list\">Command List</a>\r   •\r   <a href=\"#installation\">Installation</a>\r   •\r   <a href=\"#plugins\">Plugins</a>\r   •\r   <a href=\"#license--credits\">License & Credits</a>\r </p>",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^14.17.3"
+  },
+  "scripts": {
+    "start": "node ./lib/index.js",
+    "prettify": "prettier --write \"lib/**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PotassiumSoftware/Jax.git"
+  },
+  "author": "Potassium Software",
+  "license": "GPL-2.0-only",
+  "bugs": {
+    "url": "https://github.com/PotassiumSoftware/Jax/issues"
+  },
+  "homepage": "https://github.com/PotassiumSoftware/Jax#readme"
+}
