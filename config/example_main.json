@@ -9,6 +9,9 @@
 		"port": "",
 		"name": ""
 	},
+	"logging": {
+		"verification": ""
+	},
 	"embeds": {
 		"colors": {
 			"default": "#00afb9",
