@@ -1,0 +1,50 @@
+{
+	"title": "Verification",
+	"fields": [
+		{
+			"customId": "rules",
+			"label": "Do you agree to the rules?",
+			"style": "Short",
+			"required": true,
+			"maxLength": 3,
+			"minLength": 1,
+			"placeholder": "Yes or No"
+		},
+		{
+			"customId": "name",
+			"label": "Preferred Name",
+			"style": "Short",
+			"required": false,
+			"maxLength": 15,
+			"minLength": 0,
+			"placeholder": "Enter a name or nickname you prefer to go by."
+		},
+		{
+			"customId": "age",
+			"label": "How old are you?",
+			"style": "Short",
+			"required": true,
+			"maxLength": 3,
+			"minLength": 1,
+			"placeholder": "Please enter your age in numeric form."
+		},
+		{
+			"customId": "join_location",
+			"label": "How did you find this server?",
+			"style": "Short",
+			"required": true,
+			"maxLength": 20,
+			"minLength": 1,
+			"placeholder": "How did you find this server? Include inviter's username if applicable."
+		},
+		{
+			"customId": "user_info",
+			"label": "Tell us about yourself!",
+			"style": "Paragraph",
+			"required": false,
+			"maxLength": 300,
+			"minLength": 1,
+			"placeholder": "Share your interests, hobbies, or details about your OC."
+		}
+	]
+}

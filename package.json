@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "node ./lib/index.js",
-    "prettify": "prettier --write \"lib/**/*.js\""
+    "prettify": "prettier --write \"lib/**/*.js\" && prettier --write \"config/*.json\" "
   },
   "repository": {
     "type": "git",

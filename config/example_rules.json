@@ -1,57 +1,55 @@
 {
-  "embed_1": {
-    "title": "Sample Title 1",
-    "description": "This is a sample description with placeholder content. You can delete any of these values if you don't want the value to appear.",
-    "url": "https://example.com",
-    "author": {
-      "name": "Sample Author",
-      "iconURL": "https://i.imgur.com/AfFp7pu.png",
-      "url": "https://example.com"
-    },
-    "thumbnail": "https://i.imgur.com/AfFp7pu.png",
-    "fields": [
-      { "name": "Field 1", "value": "Sample value 1" },
-      { "name": "Field 2", "value": "Sample value 2", "inline": true },
-      { "name": "Field 3", "value": "Sample value 3", "inline": true }
-    ],
-    "image": "https://i.imgur.com/AfFp7pu.png",
-    "footer": {
-      "text": "Sample Footer",
-      "iconURL": "https://i.imgur.com/AfFp7pu.png"
-    }
-  },
-  "embed_2": {
-    "title": "Sample Title 2",
-    "description": "Another placeholder description goes here.",
-    "author": {
-      "name": "Sample Author",
-      "iconURL": "https://i.imgur.com/AfFp7pu.png"
-    },
-    "thumbnail": "https://i.imgur.com/AfFp7pu.png",
-    "fields": [
-      { "name": "Field 1", "value": "Sample value 1" },
-      { "name": "Field 2", "value": "Sample value 2", "inline": true }
-    ],
-    "footer": {
-      "text": "Sample Footer",
-      "iconURL": "https://i.imgur.com/AfFp7pu.png"
-    }
-  },
-  "embed_3": {
-    "title": "Sample Title 3",
-    "description": "This is just a random description with filler content.",
-    "url": "https://example.com",
-    "author": {
-      "name": "Sample Author",
-      "iconURL": "https://i.imgur.com/AfFp7pu.png"
-    },
-    "thumbnail": "https://i.imgur.com/AfFp7pu.png",
-    "fields": [
-      { "name": "Field 1", "value": "Sample value 1" }
-    ],
-    "footer": {
-      "text": "Sample Footer",
-      "iconURL": "https://i.imgur.com/AfFp7pu.png"
-    }
-  }
+	"embed_1": {
+		"title": "Sample Title 1",
+		"description": "This is a sample description with placeholder content. You can delete any of these values if you don't want the value to appear.",
+		"url": "https://example.com",
+		"author": {
+			"name": "Sample Author",
+			"iconURL": "https://i.imgur.com/AfFp7pu.png",
+			"url": "https://example.com"
+		},
+		"thumbnail": "https://i.imgur.com/AfFp7pu.png",
+		"fields": [
+			{ "name": "Field 1", "value": "Sample value 1" },
+			{ "name": "Field 2", "value": "Sample value 2", "inline": true },
+			{ "name": "Field 3", "value": "Sample value 3", "inline": true }
+		],
+		"image": "https://i.imgur.com/AfFp7pu.png",
+		"footer": {
+			"text": "Sample Footer",
+			"iconURL": "https://i.imgur.com/AfFp7pu.png"
+		}
+	},
+	"embed_2": {
+		"title": "Sample Title 2",
+		"description": "Another placeholder description goes here.",
+		"author": {
+			"name": "Sample Author",
+			"iconURL": "https://i.imgur.com/AfFp7pu.png"
+		},
+		"thumbnail": "https://i.imgur.com/AfFp7pu.png",
+		"fields": [
+			{ "name": "Field 1", "value": "Sample value 1" },
+			{ "name": "Field 2", "value": "Sample value 2", "inline": true }
+		],
+		"footer": {
+			"text": "Sample Footer",
+			"iconURL": "https://i.imgur.com/AfFp7pu.png"
+		}
+	},
+	"embed_3": {
+		"title": "Sample Title 3",
+		"description": "This is just a random description with filler content.",
+		"url": "https://example.com",
+		"author": {
+			"name": "Sample Author",
+			"iconURL": "https://i.imgur.com/AfFp7pu.png"
+		},
+		"thumbnail": "https://i.imgur.com/AfFp7pu.png",
+		"fields": [{ "name": "Field 1", "value": "Sample value 1" }],
+		"footer": {
+			"text": "Sample Footer",
+			"iconURL": "https://i.imgur.com/AfFp7pu.png"
+		}
+	}
 }
