@@ -5,3 +5,4 @@ config/main.json
 config/rules.json
 config/verification.json
 data/verifications.json
+*.log
