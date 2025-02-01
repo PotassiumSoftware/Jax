@@ -1,6 +1,6 @@
 {
   "name": "orchid",
-  "version": "20",
+  "version": "21",
   "description": "<p align=\"center\"><p align=\"center\">\r   <a href=\"#overview\">Overview</a>\r   •\r   <a href=\"#command-list\">Command List</a>\r   •\r   <a href=\"#installation\">Installation</a>\r   •\r   <a href=\"#plugins\">Plugins</a>\r   •\r   <a href=\"#license--credits\">License & Credits</a>\r </p>",
   "main": "./lib/index.js",
   "dependencies": {
