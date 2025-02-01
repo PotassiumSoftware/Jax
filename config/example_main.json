@@ -9,6 +9,9 @@
 		"port": "",
 		"name": ""
 	},
+	"roles": {
+		"approved": ["1", "2", "3"]
+	},
 	"logging": {
 		"verification": ""
 	},
