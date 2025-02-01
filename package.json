@@ -1,11 +1,13 @@
 {
   "name": "orchid",
-  "version": "21",
+  "version": "22",
   "description": "<p align=\"center\"><p align=\"center\">\r   <a href=\"#overview\">Overview</a>\r   •\r   <a href=\"#command-list\">Command List</a>\r   •\r   <a href=\"#installation\">Installation</a>\r   •\r   <a href=\"#plugins\">Plugins</a>\r   •\r   <a href=\"#license--credits\">License & Credits</a>\r </p>",
   "main": "./lib/index.js",
   "dependencies": {
     "discord.js": "^14.17.3",
-    "pg": "^8.13.1"
+    "pg": "^8.13.1",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0"
   },
   "scripts": {
     "start": "node ./lib/index.js",
