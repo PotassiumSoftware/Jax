@@ -1,14 +1,15 @@
 {
   "name": "jax",
-  "version": "1.0.0",
+  "version": "1.2.0-DEV",
   "description": "<p align=\"center\"><p align=\"center\">\r   <a href=\"#overview\">Overview</a>\r   •\r   <a href=\"#command-list\">Command List</a>\r   •\r   <a href=\"#installation\">Installation</a>\r   •\r   <a href=\"#plugins\">Plugins</a>\r   •\r   <a href=\"#license--credits\">License & Credits</a>\r </p>",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "dependencies": {
-    "discord.js": "^14.17.3"
+    "discord.js": "^14.17.3",
+    "pg": "^8.13.1"
   },
   "scripts": {
     "start": "node ./lib/index.js",
-    "prettify": "prettier --write \"lib/**/*.js\""
+    "prettify": "prettier --write \"lib/**/*.js\" && prettier --write \"config/*.json\" "
   },
   "repository": {
     "type": "git",

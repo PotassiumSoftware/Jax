@@ -1,0 +1,26 @@
+{
+	"token": "",
+	"clientId": "",
+	"guildId": "",
+	"database": {
+		"user": "",
+		"password": "",
+		"host": "",
+		"port": "",
+		"name": ""
+	},
+	"roles": {
+		"approved": ["1", "2", "3"]
+	},
+	"logging": {
+		"verification": ""
+	},
+	"embeds": {
+		"colors": {
+			"default": "#00afb9",
+			"success": "#57F287",
+			"error": "#ED4245",
+			"warning": "#FEE75C"
+		}
+	}
+}
