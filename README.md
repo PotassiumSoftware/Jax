@@ -17,6 +17,7 @@ Bot is a major work in progress! This is currently the barebones Discord bot.
 # Command List
 
 ## Admin
+- verify
 - embeds
 
 ## Info
