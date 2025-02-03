@@ -1,0 +1,24 @@
+{
+	"note": "I do not reccomend editing this.",
+	"title": "Verification",
+	"fields": [
+		{
+			"customId": "punishment_reason",
+			"label": "What was the reason?",
+			"style": "Paragraph",
+			"required": true,
+			"maxLength": 60,
+			"minLength": 1,
+			"placeholder": "Enter your mute/ban reason. We have logs, dont lie."
+		},
+		{
+			"customId": "appeal_reason",
+			"label": "Why should your punishment be undone?",
+			"style": "Paragraph",
+			"required": true,
+			"maxLength": 300,
+			"minLength": 1,
+			"placeholder": "Tell us why you think your punishment was unjust."
+		}
+	]
+}

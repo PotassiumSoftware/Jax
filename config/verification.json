@@ -1,4 +1,5 @@
 {
+	"note": "I do not reccomend editing this.",
 	"title": "Verification",
 	"fields": [
 		{
@@ -15,8 +16,8 @@
 			"label": "Preferred Name",
 			"style": "Short",
 			"required": false,
-			"maxLength": 15,
-			"minLength": 0,
+			"maxLength": 20,
+			"minLength": 1,
 			"placeholder": "Enter a name or nickname you prefer to go by."
 		},
 		{
@@ -33,7 +34,7 @@
 			"label": "How did you find this server?",
 			"style": "Short",
 			"required": true,
-			"maxLength": 20,
+			"maxLength": 50,
 			"minLength": 1,
 			"placeholder": "How did you find this server? Include inviter's username if applicable."
 		},

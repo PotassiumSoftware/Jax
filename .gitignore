@@ -3,6 +3,7 @@
 package-lock.json
 config/main.json
 config/rules.json
-config/verification.json
 data/verifications.json
+data/appeals.json
 *.log
+*.gz
